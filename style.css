@@ -1,0 +1,206 @@
+.title{
+   margin-top: 20vh;
+   margin-left: 15rem;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+
+}
+h1, h2, h4, h5{
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 150px;
+    color: tomato;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+
+h2{
+    display: flex ;
+    justify-content: center;
+}
+
+h3{
+    font-weight: bold;
+    font-size: larger;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+
+.services-list{
+    display: flex;
+    margin-top: 10rem;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 10rem;
+}
+
+.s1{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
+.title > p{
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    width:fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    max-width: 100rem;
+    padding-bottom: 30rem;
+
+}
+
+.background{
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 > span{
+  /* text-decoration: underline wavy brown 10px;
+    text-underline-offset: 3rem; */
+    color: #4897D8;
+}
+
+body{
+    background-color:#FDF2E5 ;
+}
+
+
+.row,.card{
+    margin-top: 20px;
+    max-width: 70rem;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.card{
+    border: 5px dashed tomato;
+}
+.card-body{
+    background-color: blanchedalmond;
+}
+img{
+    width:300px;
+    height: 200px;
+    border: 2px dashed darksalmon;
+    margin-bottom: 50px;
+}
+.card-title{
+    font-size: 2rem;
+    text-align: match-parent;
+    font-family: 'Space Mono', monospace;;
+}
+.btn{
+    background-color: tomato;
+    margin-top: 10px;
+    position: relative;
+    font-size: 2rem;
+    border: 1px solid #FDF2E5;
+    margin-bottom: 10px;
+}
+
+.our-work{
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 10rem;
+}
+
+
+
+.Contact-us{
+    font-family:'Space Mono', monospace; ;
+    max-width: auto;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+
+h5{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.icons{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    max-width: auto;
+}
+h6{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10rem;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+footer{
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
