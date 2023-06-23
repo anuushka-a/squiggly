@@ -1,6 +1,6 @@
 .title{
-   margin-top: 10vh;
-   margin-left: 15rem;
+   margin-top: 12vh;
+   margin-left: 6rem;
 
 }
 .nav{
@@ -13,12 +13,12 @@
 .nav{
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 1rem;
 
 }
 h1, h2, h4, h5{
     font-family: 'Bagel Fat One', cursive;
-    font-size: 150px;
+    font-size: 100px;
     color: tomato;
     display: flex;
     position: relative;
@@ -45,11 +45,12 @@ h4{
 
 .services-list{
     display: flex;
-    margin-top: 10rem;
-    font-size: 30px;
+    margin-top: 5rem;
+    gap: 10px;
+    font-size: 18px;
     justify-content: center;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding-bottom: 10rem;
 }
 
@@ -62,13 +63,13 @@ h4{
 
 .title > p{
     font-family: 'Space Mono', monospace;
-    font-size: 2rem;
+    font-size: 20px;
     width:fit-content;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5rem;
-    max-width: 100rem;
-    padding-bottom: 30rem;
+    margin-top: 2rem;
+    max-width: 800px;
+    padding-bottom: 17rem;
 
 }
 
@@ -92,7 +93,7 @@ body{
 
 .row,.card{
     margin-top: 20px;
-    max-width: 70rem;
+    max-width: 600px;
     text-align: center;
     font-family: 'Space Mono', monospace;
 }
@@ -104,8 +105,8 @@ body{
     background-color: blanchedalmond;
 }
 img{
-    width:300px;
-    height: 200px;
+    width:150px;
+    height:  100px;
     border: 2px dashed darksalmon;
     margin-bottom: 50px;
 }
@@ -118,7 +119,7 @@ img{
     background-color: tomato;
     margin-top: 10px;
     position: relative;
-    font-size: 2rem;
+    font-size: 1rem;
     border: 1px solid #FDF2E5;
     margin-bottom: 10px;
 }
@@ -128,7 +129,7 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -136,8 +137,8 @@ img{
 .Contact-us{
     font-family:'Space Mono', monospace; ;
     max-width: auto;
-    margin-left: 40rem;
-    margin-right: 40rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -192,7 +193,7 @@ h5{
 }
 h6{
     text-align: center;
-    font-size: 3rem;
+    font-size: 1rem;
     margin-top: 10rem;
     font-family: monospace;
     font-weight: lighter;
